@@ -1,0 +1,110 @@
+This is how you would express this as a JavaScript object:
+
+const friendInfo = {
+    "name": "Alan Turing",
+    "cell": "6017576",
+    "birthday": "June 23",
+}
+
+Each value, like "June 23", is associated with a specific key (birthday).
+
+In other words, an Object is a way to group together labeled information.
+
+It lets you create a mapping from keys to values. They are useful for representing information as records.
+
+
+const friendInfo = {
+    "name": "Alan Turing",
+    "cell": "6017576",
+    "birthday": "June 23",
+}
+
+An object consists of pairs of keys and values inside of curly braces.
+
+Keys and their values are separated by a :.
+
+Key-value pairs are separated by a ,.
+
+An empty object can be created like so:
+
+
+
+
+number_of_lassos = superhero.lassos
+
+// const todos = ["pet the cat", "go to work", "shop for groceries", "go home", "feed the cat"]
+console.log(`I have ${todos.length} things to do.`);
+// "I have 5 things to do."
+
+
+//const todos = ["pet the cat", "go to work", "shop for groceries", "go home", "feed the cat"]
+console.log(`I have ${todos.length} things to do.`);
+"I have 5 things to do."
+
+todos.push("go to sleep");
+
+console.log(`I have ${todos.length} things to do.`);
+"I have 6 things to do."
+
+//console.log(todos[5]);
+"go to sleep"
+
+To remove an item from the end of an Array, use its .pop() method:
+const todos = ["pet the cat", "go to work", "shop for groceries", "go home", "feed the cat"]
+
+const theLastItem = todos.pop();
+console.log(theLastItem);
+'feed the cat'
+
+To do the opposite of .join(), Strings have a method to .split() them into an Array of Strings:
+
+const todoString = 'pet the cat! go to work! shop for groceries! go home! feed the cat';
+const todos = todoString.split('! ');
+console.log(todos);
+//[
+//  'pet the cat',
+//  'go to work',
+//  'shop for groceries',
+//  'go home',
+//  'feed the cat'
+//]
+
+To get the index of an item in an Array, use the .indexOf() method:
+
+const todos = ["pet the cat", "go to work", "shop for groceries", "go home", "feed the cat"]
+const idx = todos.indexOf('go to work');
+console.log(idx);
+// 1
+
+If an item is not in an Array, .indexOf() will return -1 (which is not a valid index).
+
+const todos = ["pet the cat", "go to work", "shop for groceries", "go home", "feed the cat"]    
+const idx = todos.indexOf('go to the beach');    
+console.log(idx);
+// -1
+
+Note that .indexOf() does exact matching. In this example,
+
+const todos = ["pet the cat", "go to work", "shop for groceries", "go home", "feed the cat"]    
+const idx = todos.indexOf('Go to Work');    
+console.log(idx);
+// -1
+
+Booleans
+To make our programs more useful, they should be able to run different statements based on certain conditions.
+
+Imagine a printTodoCount() function that will tell you how many todos you have left. If there are no more todos, then it prints the message "All done!"
+
+const todos = ['pet the cat', 'feed the cat'];
+printTodoCount(todos);
+// You have 2 things left to do.
+
+todos.pop(); // Remove a todo
+
+printTodoCount(todos);
+// You have 1 thing left to do.
+
+todos.pop(); // Remove a todo
+
+printTodoCount(todos);
+// All done!
