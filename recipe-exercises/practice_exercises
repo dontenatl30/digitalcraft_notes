@@ -1,0 +1,76 @@
+// practice 1
+
+// // 1. Define a variable (name) that is a STRING of your name. 
+// const firstName = "LaDonte LeBlanc";
+// // 2. Console log your name variable and add the string "is cool".
+// console.log(`${firstName} is cool`);
+// // 3. Create a new variable called daysUntilChristmas. Set this variable equal to 25 minus today's day value (1).
+// const daysUntilChristmas = 25 - 10;
+// // Console log this variable preceeded by the string: "Days until Christmas". Don't forget the comma!
+// console.log(daysUntilChristmas, "Days until Christmas");
+// const frontTeeth = "my two front teeth";
+// // 4. Using interpolation, console log the following phrase using the variable frontTeeth:
+// console.log(`All I want for Christmas is ${frontTeeth}.`);
+// function decemberCountdown(date, today) {
+// return date - today;
+// }
+// // 5. Using the decemberCountdown function, take the day value of New Year's Eve (31) minus today's day value (1).
+// // Set this equal to a variable! Console log it to confirm your answer!
+// const countDown = decemberCountdown(31, 1);
+
+// //decemberCountdown(31, 1);
+// console.log(countDown);
+
+
+// practice 2 objects
+
+
+// Follow the instructions below. As you go through the process console log each variable to see it change!
+// 1. Create a new Object representing YOU. Include they following keys: fullName, age, faveColor, and likesPizza.
+
+// const myObject =  {
+//     fullName: "LaDonte LeBlanc", 
+//     age: '34',
+//     faveColor: 'blue', 
+//     likesPizza: true
+// }
+// HINT: likesPizza accepts a boolean.
+// 2. Create a new variable and set it equal to the faveColor property.
+// 3. Update your fullName to only be your last name.
+// 4. Delete the likesPizza property.
+// 5. Add a new key that represents your fave food and mirrors the likePizza. The value will represent the fact that you like it :)
+// For example, I would like put likesCookies.
+
+// const newColor = myObject.faveColor;
+
+// console.log(newColor);
+
+// myObject.fullName = "LeBlanc";
+
+// console.log(myObject.fullName);
+
+// delete myObject.likesPizza;
+
+// console.log(myObject);
+
+// myObject.likeCookies = true;
+
+// console.log(myObject);
+
+
+// practice 3 Arrays
+
+const digitalCraftsCrew = [
+    "Jamie",
+    "Dr. Vicki",
+    "Jada",
+    "Athena",
+    "Dee",
+    "Ernesto",
+    "Robbie"
+    ];
+    //Length of the array
+    console.log(digitalCraftsCrew.lengh);
+    //Add a new item to the END of the array
+    //Remove item from the END of the array
+    //Get the index of "Dr. Vicki"
