@@ -1,0 +1,30 @@
+    body {
+    background-image: url(../Images/Mercedes-AMG-S-63-E.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-family: 'Tangerine', Serif;
+    font-size: 25px;
+    background-color: rgba(43, 150, 226, 0.538); */
+    font-family: 'Tangerine', Serif;
+    font-size: 50px;
+    /* background-color: rgba(43, 150, 226, 0.538); */
+    color: white;
+  }
+
+
+  .headshot {
+     border: solid red 4px;
+     
+  }
+
+  .containerOne {
+    background-color: rgba(29, 7, 7, 0.282);
+  }
+
+  a {
+    color: #1877F2;
+  }
+
+
+

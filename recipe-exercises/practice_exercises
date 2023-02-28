@@ -60,17 +60,34 @@
 
 // practice 3 Arrays
 
-const digitalCraftsCrew = [
-    "Jamie",
-    "Dr. Vicki",
-    "Jada",
-    "Athena",
-    "Dee",
-    "Ernesto",
-    "Robbie"
-    ];
-    //Length of the array
-    console.log(digitalCraftsCrew.lengh);
-    //Add a new item to the END of the array
-    //Remove item from the END of the array
-    //Get the index of "Dr. Vicki"
+// const digitalCraftsCrew = [
+//     "Jamie",
+//     "Dr. Vicki",
+//     "Jada",
+//     "Athena",
+//     "Dee",
+//     "Ernesto",
+//     "Robbie"
+//     ];
+//     //Length of the array
+//     console.log(digitalCraftsCrew.length);
+//     //Add a new item to the END of the array
+//     digitalCraftsCrew.push("donte");
+//     console.log(digitalCraftsCrew.push("donte"));
+//     //Remove item from the END of the array
+//     digitalCraftsCrew.pop();
+//     //Get the index of "Dr. Vicki"
+//     const foundValue = digitalCraftsCrew.indexOf("Dr.Vicki");
+
+//     console.log(foundValue);
+
+    // Practice 4 
+
+function makeANumber() {
+    var myNum = 34;
+    return myNum;
+}
+
+function makeAnInteger() {
+    var myInt = 17
+}
