@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation HW</title>
+  </head>
+  <body>
+    <h1>Validation HW</h1>
+    <div id="small">
+      <h2>Small</h2>
+      <form action="">
+        <label for="name">Name</label>
+        <input type="text" name="name" required />
+        <input type="submit" value="submit" />
+      </form>
+      <br />
+      <form>
+        <label for="age">Age</label>
+        <input type="number" name="age" min="0" max="100" />
+        <!-- <input type="submit" value="submit" /> -->
+
+        <button type="submit" value="submit">Submit</button>
+      </form>
+      <br>
+      <!-- "action" means once you click the submit button the system will go a find the file noted in the action="" and its using the "get" method to access the file location. its a way to map to the files location in a particular folder. if we didnt hve a file attached then the developer would have to write a file that would extract the data from the form input and do something with the information.  -->
+      <!-- https://www.youtube.com/watch?v=A3-oJCWAxjc its better to use "post" when entering sensative information in the form. "get" allows the information to be bookmarked "get" is better used when doing query streams in google. post is used when we need sensative information hidden it appends the information in the http request so we cant see it in the url https://www.youtube.com/@greganderson9799/videos -->
+
+      
+      <form action="/myposting,php" method="post" id="usernameForm"> 
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" oninput="setCustomValidity('')">
+        <input type="submit" value="submit">
+    </form>
+
+      <!-- <form id="sm3">
+        <label for="username">Username</label>
+        <input 
+        type="text" 
+        name="username" 
+        id="username" >
+        <input type="submit" value="submit">
+      </form> -->
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>

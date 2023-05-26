@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 101</title>
+    <!-- https://ihateregex.io/ 
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password -->
+
+        <style>
+            input:invalid {
+                background-color: blue;
+            }
+            input:valid {
+                background-color: green;
+            }
+        </style>
+</head>
+<body>
+    <h1 id="title">Form Validation</h1>
+    <div id="content">
+        <form id="form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username"
+            >
+            <label for="password">Password</label>
+            <input type="password" 
+            id="password" 
+            name="password" 
+            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" 
+            title="Minimum 8 characters, at least one letter and one number">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" >
+            <label name="level">Level</label>
+            <input type="number" min="10" max="100" name="level">
+            <input type="submit" value="submit" id="submit">
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
